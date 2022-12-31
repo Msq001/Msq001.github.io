@@ -18,6 +18,9 @@
 # Dimensions
 <img src=img/CB1_Size.png/><br/>
 
+# Schematic
+[BIGTREETECH_CB1_V22_220812_SCH](./doc/BIGTREETECH_CB1_V22_220812_SCH.pdf) 
+
 # 2 * 100 pins
 A Pin | Signal | Description | A Pin | Signal | Description
 -- | -- | -- | -- | -- | --
