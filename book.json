@@ -1,5 +1,18 @@
 {
-    "plugins":["expandable-chapters", "hide-element", "-sharing", "sharing-plus"],
+    "plugins":[
+        "expandable-chapters",
+        "hide-element",
+        "-sharing",
+        "sharing-plus",
+        "splitter",
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "pageview-count",
+        "auto-scroll-table",
+        "code",
+        "copy-code-button"
+    ],
 
     "pluginsConfig": {
         "theme-default": {
@@ -7,6 +20,9 @@
         },
         "hide-element": {
             "elements": [".gitbook-link"]
+        },
+        "github": {
+            "url": "https://github.com/bigtreetech"
         }
     }
 }
