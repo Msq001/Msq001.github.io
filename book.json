@@ -1,0 +1,12 @@
+{
+    "plugins":["expandable-chapters", "hide-element", "-sharing", "sharing-plus"],
+
+    "pluginsConfig": {
+        "theme-default": {
+             "showLevel": true
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        }
+    }
+}
