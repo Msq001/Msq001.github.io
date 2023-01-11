@@ -21,6 +21,32 @@
 # Schematic
 [BIGTREETECH_CB1_V22_220812_SCH](./doc/BIGTREETECH_CB1_V22_220812_SCH.pdf) 
 
+# 40 pin GPIO
+* The 40 pin GPIO on the motherboard when CB1 is used with motherboard like Manta M4P, M5P, M8P, PI4B_Adapter, etc.
+
+Pin | Signal | Description | Pin | Signal | Description
+-- | -- | -- | -- | -- | --
+1 | 3.3V | | 2 | 5V |
+3 | NC  | | 4 | 5V  |
+5 | NC  | | 6 | GND  |
+7 | PC7 | GPIO71 | 8 | PH0 | GPIO224, UART0_TX
+9 | GND  | | 10 | PH1 | GPIO193, UART0_RX
+11 | PC14  | GPIO78 | 12 | PC13 | GPIO77
+13 | PC12 | GPIO76 | 14 | GND |
+15 | PC10 | GPIO74 | 16 | PC11 | GPIO75
+17 | 3.3V | | 18 | PC9 | GPIO73
+19 | PH7 | GPIO231, SPI1_MOSI | 20 | GND |
+21 | PH8 | GPIO232, SPI1_MISO | 22 | NC |
+23 | PH6 | GPIO230, SPI1_CLK | 24 | NC |
+25 | GND | | 26 | PG8 | GPIO200
+27 | NC | | 28 | PG7 | GPIO199
+29 | NC | | 30 | GND |
+31 | PG6 | GPIO198 | 32 | PG9 | GPIO201
+33 | NC | | 34 | GND |
+35 | PC6 | GPIO70 | 36 | NC |
+37 | PC15 | GPIO79 | 38 | PH10 | GPIO234, IR_RX
+39 | GND | | 40 | PC8 | GPIO72
+
 # 2 * 100 pins
 A Pin | Signal | Description | A Pin | Signal | Description
 -- | -- | -- | -- | -- | --
